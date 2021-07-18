@@ -1,0 +1,23 @@
+{
+  "name": "lamdbda-test",
+  "version": "1.0.0",
+  "description": "Test web selenium integration with lambdatest platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node build/index.js"
+  },
+  "keywords": [
+    "selenium"
+  ],
+  "author": "Milind Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-beta.4"
+  },
+  "devDependencies": {
+    "@types/chromedriver": "^81.0.0",
+    "@types/selenium-webdriver": "^4.0.15",
+    "chromedriver": "^91.0.1",
+    "typescript": "^4.3.5"
+  }
+}
